@@ -4,7 +4,7 @@ import numpy as np
 
 # defines the unit-step funtion
 def u (start, finish, amplitude, sample_rate):
-    t=np.linspace (start, finish, sample_rate)
+    t= np.linspace (start, finish, sample_rate)
     return t, np.where (t<0, 0, amplitude)
 
 # defines sine wave function
@@ -14,7 +14,7 @@ def generate_sine_wave (frequency, duration, sample_rate):
     return t, y
 
 # defines the modification of the original sine wave function
-def midified_sine_wave (frequency, duration, sample_rate, amplitude):
+def modified_sine_wave (frequency, duration, sample_rate, amplitude):
     t= np.linspace (0, duration, sample_rate)
     y= amplitude*np.sin (frequency*2*np.pi*t)
     return t, y
