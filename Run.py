@@ -21,3 +21,13 @@ plt.title ("Unit step")
 plt.xlabel ("time (s)")
 plt.ylabel("height (m)")
 plt.show()
+
+#generate modified sine wave function
+t, y = sig.modified_sine_wave(4,2,1000,amplitude=10.0)
+plt.figure (3)
+plt.plot (t,y)
+plt.grid (True)
+plt.title ("Modified sine wave")
+plt.xlabel ("time (s)")
+plt.ylabel("amplitude")
+plt.show()
