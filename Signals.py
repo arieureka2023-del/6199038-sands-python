@@ -18,3 +18,8 @@ def midified_sine_wave (frequency, duration, sample_rate, amplitude):
     t= np.linspace (0, duration, sample_rate)
     y= amplitude*np.sin (frequency*2*np.pi*t)
     return t, y
+
+#defines the modification of the original unit step fucntion
+def modified_u (start, finish, delay, amplitude, sample_rate):
+    t= np.linspace (start, finish, sample_rate)
+    return t, np.where (t<0+delay, 0, amplitude)
