@@ -31,3 +31,13 @@ plt.title ("Modified sine wave")
 plt.xlabel ("time (s)")
 plt.ylabel("amplitude")
 plt.show()
+
+#generate modified unit step function
+t, y= sig.modified_u(-10,10,-2,3,10000)
+plt.figure (4)
+plt.plot (t, y)
+plt.grid (True)
+plt.title ("Modified unit step")
+plt.xlabel ("time (s)")
+plt.ylabel("height (m)")
+plt.show()
