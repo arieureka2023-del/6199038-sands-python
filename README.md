@@ -1,7 +1,17 @@
-Signals and Systems practical
+# Signals and Systems
 
-This repository contains the practical work I completed for the Signals and Systems course. 
-The project focuses on generating basic signals using functions in Python to manipulate, plot and analyze different types of signals. 
-The code is organized into two main files: Signals.py, which includes the functions used to create various signals (such as a unit-step function, and a sine wave function), and run.py, where these signals are modified and plotted. 
-The repository serves as a collection of the exercises and solutions developed during this practical.
+This repository represents the project I completed for the **Signals and Systems AESB2122-24** course.
+
+---
+
+## Introduction
+The project focuses on generating basic signals using functions in Python to manipulate, plot and analyze different types of signals, such as sine wave and unit step functions. 
+
+---
+
+## Content
+- `hello.py` – First print statement, testing 
+- `Signals.py` – Defines the signals (`generate_u`and `generate_sin_wave`)  
+- `Run.py` – Modifies and plots the signals   
+- `README.md` – Presents the project 
 
