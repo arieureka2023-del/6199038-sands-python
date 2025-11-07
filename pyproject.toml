@@ -5,9 +5,9 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Python project AES"
-version = "1.0.0"
-description = "With this project you can generate signals, modify them and run and plot them"
+name = "Python project Signals and Systems AES"
+version = "0.1.0"
+description = "With this project you can generate signals, modify them and plot them"
 authors = [
     {name = "Arianna Peirano", email = "arieureka2023@gmail.com"}
 ]
