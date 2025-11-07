@@ -33,5 +33,11 @@ def test_generate_u():
     assert y[0] == 0
     assert y[9000] == 3
     
-
+#testing modified_u function
+def test_modified_u():
+    t, y= sig.modified_u(-10,10,-2,3,10000)
+    assert len(t) == 10000
+    assert np.allclose(max(y), 3, atol=1e-6)
+    assert y[0] == 0
+    assert y[9000] == 3
  
