@@ -52,5 +52,5 @@ This repository contains the following:
     ```python -m pytest```
 
     These tests have the goal to check weather the functions work as theyìre supposed to. In case they do, the terminal will show the following:
-    ![Passed test](images/passed_test.png)
+    ![passed test](images/passed_test.png)
 
