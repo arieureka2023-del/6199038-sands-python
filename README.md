@@ -8,7 +8,8 @@ This repository represents the project completed for the **Signals and Systems A
 
 1. [Introduction](#Introduction)
 2. [Content](#Content)
-3. [How to use this repository](#How-to-use-this-repository)
+3. [How to install](#How-to-install)
+4. [How to use](#How-to-use)
 
 ---
 
