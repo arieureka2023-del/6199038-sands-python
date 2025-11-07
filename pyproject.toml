@@ -1,0 +1,14 @@
+ECHO is on.
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Python project AES"
+version = "1.0.0"
+description = "With this project you can generate signals, modify them and run and plot them"
+authors = [
+    {name = "Arianna Peirano", email = "arieureka2023@gmail.com"}
+]
+dependencies = ["numpy", "matplotlib"]
